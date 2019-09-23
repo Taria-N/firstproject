@@ -1,3 +1,7 @@
+/**
+ * @author Natalia Tkacheva
+ */
+
 import java.util.Scanner;
 
 public class Task2 {
@@ -7,16 +11,15 @@ public class Task2 {
         Scanner scanner = new Scanner(System.in);
 
 
-        int i = scanner.nextInt();
+        double i = scanner.nextDouble();
 
         System.out.println("Введите число");
 
-        int m = scanner.nextInt();
+        double m = scanner.nextDouble();
 
-        int x = i + m;
+        double x = i + m;
 
-
-        System.out.println("Сумма:" + x);
+    System.out.printf("Сумма: %.4f", x);
 
         scanner.close();
 
