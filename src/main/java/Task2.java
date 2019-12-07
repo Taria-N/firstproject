@@ -1,7 +1,4 @@
-/**
- * @author Natalia Tkacheva
- */
-
+/*
 import java.util.Scanner;
 
 public class Task2 {
@@ -13,15 +10,46 @@ public class Task2 {
 
         double i = scanner.nextDouble();
 
+        System.out.println("Введите знак");
+
+        String s = scanner.next();
+
         System.out.println("Введите число");
 
         double m = scanner.nextDouble();
 
+
         double x = i + m;
 
-    System.out.printf("Сумма: %.4f", x);
+        double y = i - m;
 
+        double z = i * m;
+
+        double d = i / m;
+
+        if (s.equals("+")) {
+
+            System.out.printf("Сумма: %.4f", x);
+        }
+
+       else if (s.equals("-")) {
+            System.out.printf("Сумма: %.4f", y);
+        }
+
+        else if (s.equals("*")) {
+            System.out.printf("Сумма: %.4f", z);
+        }
+
+        else if (s.equals("/")) {
+            System.out.printf("Сумма: %.4f", d);
+        }
+
+        else {
+        System.out.printf("Результат неизвестен");
+)
         scanner.close();
 
     }
-}
+
+    */
+
