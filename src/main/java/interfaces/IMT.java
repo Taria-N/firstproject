@@ -7,9 +7,9 @@ import java.io.InputStreamReader;
 public class IMT {
         public static void main(String[] args) throws IOException {
             BufferedReader imt = new BufferedReader(new InputStreamReader(System.in));
-            System.out.println("Введите свой вес в кг: ");
+            System.out.print("Введите свой вес в кг: ");
             double weight = Double.parseDouble(imt.readLine());
-            System.out.println("Введите свой рост в м: ");
+            System.out.print("Введите свой рост в м: ");
             double height = Double.parseDouble(imt.readLine());
 
             Body.calculateMassIndex(weight, height);
